@@ -11,7 +11,11 @@ The non-FPA version has been tested successfully over a dozen builds using 25MHz
 
 Multiple options are provided for clock source - standard oscillator, SMT oscillator and ICD2053 clock generator.
 
-This design has not yet been built or tested.
+This design has been built and tested in A3000, running up to a 40MHz Arm3 and FPA11, or 36MHz Arm3 and FPA10.  The THT oscillator and ICD2053 options have been tested and work as expected.
+
+## NOTE
+
+The current layout of this board (position of the PLCC84 plug) means that this board will not fit A300/A400 machines at present - layout to be updated to allow this!
 
 
 ## Licence
